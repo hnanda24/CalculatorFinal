@@ -1,0 +1,43 @@
+.calc{
+   text-align: center;
+   color: rgb(255, 132, 0);
+   margin-top: 20px;
+   font-family: 'Raleway', sans-serif;
+   font-family: 'Roboto Mono', monospace;
+   font-weight: 900;
+}
+
+.row{
+    margin: 10px 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    border: 2px solid black;
+    margin: 0 3px;
+    padding: 20px;
+    border-radius: 9px;
+    color: rgb(255, 132, 0);
+    font-weight: 900;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.input{
+    margin: 0;
+    font-size: 19px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+body{
+    background-color: black;
+}
